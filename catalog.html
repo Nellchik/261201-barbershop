@@ -9,9 +9,9 @@
       <div class="container">
          <nav class="main-navigation">
              <ul>
-                 <li>
+               	<li>
                      <a href="#">Информация</a>
-                 </li>
+                </li>
                  <li>
                      <a href="#">Новости</a>
                  </li>
@@ -32,25 +32,25 @@
       </div>
   </header>
   <main class="container">
+    <h1>Средства для ухода</h1>
      <nav class="breadcrumbs">
-            <h1>Средства для ухода</h1>
-             <ul>
-                 <li>
-                     <a href="#">Главная</a>
-                 </li>
-                 <li>
-                     <a href="#">Магазин</a>
-                 </li>
-                 <li>
-                     <a href="#">Средства для ухода</a>
-                 </li>
-             </ul>  
+        <ul>
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
+                <a href="#">Магазин</a>
+            </li>
+            <li>
+                <a>Средства для ухода</a>
+            </li>
+        </ul>  
      </nav>
      <div class="left-column">
-           <form action="#" method="post">
+        <form action="#" method="post">
              
-             <div class="left-column-top">
-             <h2>Производитель:</h2>
+          <fieldset class="left-column-top">
+            <legend>Производитель:</legend>
               <input type="checkbox" name="baxter" id="baxter-field" checked>
               <label for="baxter-field">Baxter of California</label>
                 
@@ -68,10 +68,10 @@
                     
               <input type="checkbox" name="amcrew" id="amcrew-field" checked>
               <label for="amcrew-field">American Crew</label>    
-             </div>
+          </fieldset>
                  
-            <div class="left-column-botton">
-              <h2>Группы товаров:</h2>
+          <fieldset class="left-column-botton">
+            <legend>Группы товаров:</legend>
     
               <input type="radio" name="shave" id="shave-field">
               <label for="shave-field">Бритвенные  принадлежности</label>
@@ -81,10 +81,10 @@
               
               <input type="radio" name="shave" id="accessories-field">
               <label for="accessories-field">Аксессуары</label>
-            </div>                                  
+          </fieldset>                                  
               
               <button class="btn" type="submit">Показать</button>
-           </form>
+        </form>
        </div>
                     
      <div class="goods">
@@ -144,7 +144,7 @@
      </div>
      <div class="paginator">
         <a href="#1">1</a>
-        <a href="#2" class="current">2</a>
+        <a class="current">2</a>
         <a href="#3">3</a>
         <a href="#4">4</a>    
      </div>
